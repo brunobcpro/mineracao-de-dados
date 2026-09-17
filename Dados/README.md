@@ -13,12 +13,12 @@ Dados/
 │
 ├── Brasil/                              # 🇧🇷 Base de dados do Brasil (Banco Central / SGS)
 │   ├── README_BRASIL.md                 # Dicionário detalhado com códigos SGS/BACEN
-│   ├── df_macro.csv                     # Base consolidada mensal (2012 a 2024, 154 registros)
+│   ├── df_macro.csv                     # Base consolidada mensal (2012 a 2026)
 │   └── coleta_dados_brasil_bcb.ipynb    # Script de coleta automatizada via API python-bcb
 │
 ├── USA/                                 # 🇺🇸 Base de dados dos EUA (Federal Reserve / FRED)
 │   ├── README_USA.md                    # Dicionário detalhado com códigos FRED
-│   ├── dados_macroeconomicos_usa.csv    # Base consolidada mensal (2010 a 2024, 180 registros)
+│   ├── dados_macroeconomicos_usa.csv    # Base consolidada mensal (2010 a 2026)
 │   └── coleta_dados_usa_fred.ipynb      # Script de coleta automatizada via API FRED
 │
 └── [Arquivos de Compatibilidade]        # Mantidos na raiz para retrocompatibilidade com notebooks legados
@@ -36,7 +36,7 @@ Dados/
 | **Fonte Primária** | **Banco Central do Brasil (BACEN)** | **Federal Reserve Bank of St. Louis** |
 | **Sistema / API** | SGS (*Sistema Gerenciador de Séries Temporais*) via `python-bcb` | FRED (*Federal Reserve Economic Data*) via `pandas_datareader` |
 | **Variável Alvo ($y$)** | **`IPCA`** (Índice de Preços ao Consumidor Amplo - Var. % Mensal) | **`Inflacao_CPI`** (Consumer Price Index for All Urban Consumers) |
-| **Período Histórico** | Março/2012 a 2026 (marco metodológico PNAD/POF) | Janeiro/2010 a Dezembro/2024 (180 meses) |
+| **Período Histórico** | Março/2012 a 2026 (marco metodológico PNAD/POF) | Janeiro/2010 a 2026 |
 | **Periodicidade Final** | Mensal (`MS` - Month Start) | Mensal (`MS` - Month Start) |
 | **Total de Variáveis** | 29 variáveis (1 Alvo + 28 Exógenas) | 20 variáveis (1 Alvo + 19 Exógenas) |
 | **Tratamento de Faltantes**| Preenchimento estocástico / interpolação sem *lookahead bias* | Reamostragem (`first()`) para diários e *Forward Fill* (`ffill`) para trimestrais |

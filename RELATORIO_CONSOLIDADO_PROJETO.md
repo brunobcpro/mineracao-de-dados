@@ -68,8 +68,14 @@ flowchart TD
   - *Critério do Marco Inicial (2012):* Justificado pela transição metodológica da mensuração do desemprego pelo IBGE (adoção da PNAD Contínua em nível nacional em substituição à PME das 6 capitais), nova ponderação do IPCA com base na POF 2008-2009 e padronização das séries setoriais do SGS/BACEN em painel balanceado, mitigando quebras estruturais espúrias.
   - *Variável Alvo ($y$):* `IPCA` (Código SGS 4447).
   - *Variáveis Exógenas ($X$):* Desagregações do IPCA (Transportes, Alimentação/Bebidas, Saúde, Vestuário, Educação, Despesas Pessoais), Índices de Preços (IGP-M, IGP-DI, INPC, IPC-BR), Variáveis Financeiras (Taxa Selic, Câmbio USDBRL, Reservas Internacionais), Atividade Econômica (PIB Mensal, Desemprego, Estoque de Empregos Formais CAGED por setor) e Consumo de Energia e Derivados de Petróleo (Gasolina, Óleo Combustível, Energia Elétrica Comercial/Residencial).
+  - *Pipeline de Pré-processamento e Limpeza:*
+    1. **Agregação e Sincronização:** Média de dias úteis para dados diários (Selic e Câmbio PTAX) e sincronização mensal contínua (`MS`).
+    2. **Zeros Estruturais e Sanitização:** Zeros espúrios em fluxos contínuos/estoques (refino, combustíveis, CAGED) convertidos em `NaN`; valores $\pm \infty$ convertidos em `NaN`.
+    3. **Tratamento de Nulos:** Interpolação temporal linear contínua (`interpolate(method='time')`) para séries macroeconômicas; para ML, `SimpleImputer` ajustado estritamente no treino e aplicado no teste (sem *lookahead bias*).
+    4. **Diagnóstico de Outliers:** Critério IQR de Tukey ($1,5 \times IQR$). Choques macroeconômicos genuínos (deflação do confinamento de 2020 e desonerações tributárias em combustíveis de 2022) integralmente preservados para ARIMA/ARIMAX; winsorização conservadora (percentis 1% e 99% no treino) para modelos de ML sensíveis à distância espacial.
 - **Estados Unidos (`dados_USA/`):**
   - Coleta de dados macroeconômicos do Federal Reserve Bank of St. Louis (FRED).
+  - Período: Janeiro de 2010 a 2026 (frequência mensal contínua, ~19 variáveis exógenas).
   - *Variável Alvo ($y$):* `Inflacao_CPI` (Consumer Price Index).
   - *Variáveis Exógenas ($X$):* `Inflacao_CPI_Core`, `Taxa_Juros_Fed`, `PCE`, `PCE_Core`, `Desemprego_menos_27_semanas`, `Permissoes_Construcao`, `Capacidade_Instalada`, `PIB_Real`, `Deflator_PIB`, `Indice_Dolar`, `TIPS_5_anos_nominal`, `TIPS_5_anos_infl_ajustado`, `Producao_Industrial`, `Emprego_Total_Nao_Agricola`.
 

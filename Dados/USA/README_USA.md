@@ -3,7 +3,7 @@
 - **Fonte Oficial:** Federal Reserve Bank of St. Louis / FRED (*Federal Reserve Economic Data*)
 - **Arquivo de Dados:** [`dados_macroeconomicos_usa.csv`](file:///c:/Users/Operador/Desktop/Mineração%20de%20dados/Dados/USA/dados_macroeconomicos_usa.csv)
 - **Script de Coleta:** [`coleta_dados_usa_fred.ipynb`](file:///c:/Users/Operador/Desktop/Mineração%20de%20dados/Dados/USA/coleta_dados_usa_fred.ipynb)
-- **Período Histórico:** Janeiro de 2010 a Dezembro de 2024 (180 observações mensais)
+- **Período Histórico:** Janeiro de 2010 a 2026 (frequência mensal contínua)
 - **Frequência Final:** Mensal (`MS` - Início do Mês)
 
 ---
