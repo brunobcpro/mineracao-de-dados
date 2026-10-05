@@ -90,25 +90,26 @@ Apresente melhorias, extensões ou novas investigações que possam ser realizad
 
 | Seção do Roteiro Oficial | Seção no Artigo (`Artigo_Previsao_Inflacao.docx` / `.md`) | Status no Projeto |
 | :--- | :--- | :---: |
-| **1 INTRODUÇÃO** | `1. Introdução do Projeto` | ✅ Implementado |
-| ├─ 1.1 Contextualização | `1.1 Contextualização` (política monetária, CMN/BACEN) | ✅ Implementado |
-| ├─ 1.2 Descrição do Problema | `1.2 Descrição do Problema` (dilema univariado vs multivariado) | ✅ Implementado |
-| ├─ 1.3 Objetivos | `1.3 Objetivos` (Geral e 6 Específicos) | ✅ Implementado |
-| ├─ 1.4 Justificativa | `1.4 Justificativa e Impacto` | ✅ Implementado |
-| └─ 1.5 Escopo Negativo | `1.5 Escopo Negativo` (não alta frequência, não microeconomia) | ✅ Implementado |
-| **2 FUNDAMENTAÇÃO TEÓRICA** | `2. Fundamentação Teórica e Trabalhos Relacionados` | ✅ Implementado |
-| ├─ 2.1 Área do Negócio | `2.1 Dinâmica Macroeconômica da Inflação no Brasil` | ✅ Implementado |
-| ├─ 2.2 Mineração de Dados | `2.2 Mineração de Séries Temporais e Seleção de Atributos` | ✅ Implementado |
-| └─ 2.3 Trabalhos Relacionados | `2.3 Trabalhos Relacionados` (Box-Jenkins, Zhang híbridos, GA/PSO) | ✅ Implementado |
-| **3 MATERIAIS E MÉTODOS** | `3. Planejamento, Governança e Dados do Projeto` | ✅ Implementado |
-| ├─ 3.1 Stakeholders Envolvidos | `3.1 Stakeholders do Projeto` (Academia, Finanças, Governo, Empresas) | ✅ Implementado |
-| ├─ 3.2 Descrição da Base de Dados | `3.2 Base de Dados e Contextualização Macroeconômica` (29 variáveis SGS) | ✅ Implementado |
-| ├─ 3.3 Análise Descritiva dos Dados | `3.3 Análise Exploratória dos Dados e Caracterização dos Atributos` | ✅ Concluído (Entrega) |
-| ├─ 3.4 Pré-processamento dos Dados | `3.4 Pré-processamento dos Dados e Dicionário de Dados Final` | ✅ Implementado |
-| └─ 3.5 Metodologia Experimental | `3.5 Metodologia Experimental` (Walk-forward 80/20, RMSE/MAE/MAPE) | 🔄 Em andamento |
-| **4 ANÁLISE E DISCUSSÃO** | `4. Análise e Discussão dos Resultados` | 🔄 Próxima etapa |
-| ├─ 4.1 Resultados | `4.1 Resultados` (Comparativo de modelos e métricas) | 🔄 Próxima etapa |
-| └─ 4.2 Discussão | `4.2 Discussão` (Interpretação econômica, relevância de atributos) | 🔄 Próxima etapa |
-| **5 CONCLUSÕES E TRABALHOS FUTUROS**| `5. Conclusões e Trabalhos Futuros` | 🔄 Próxima etapa |
-| ├─ 5.1 Conclusões | `5.1 Conclusões` (Síntese e resposta à pergunta de pesquisa) | 🔄 Próxima etapa |
-| └─ 5.2 Trabalhos Futuros | `5.2 Trabalhos Futuros` (Transformers temporais, dados intradiários) | 🔄 Próxima etapa |
+| **1 INTRODUÇÃO** | `1 INTRODUÇÃO` | ✅ Concluído |
+| ├─ 1.1 Contextualização | `1.1 Contextualização` (mecanismo de transmissão, CMN/BACEN) | ✅ Concluído |
+| ├─ 1.2 Descrição do Problema | `1.2 Descrição do Problema` (dilema univariado vs multivariado) | ✅ Concluído |
+| ├─ 1.3 Objetivos | `1.3 Objetivos` (Geral e 6 Específicos) | ✅ Concluído |
+| ├─ 1.4 Justificativa | `1.4 Justificativa` (relevância econômica e acadêmica) | ✅ Concluído |
+| └─ 1.5 Escopo Negativo | `1.5 Escopo Negativo` (mensal, não micro, não prescritivo) | ✅ Concluído |
+| **2 FUNDAMENTAÇÃO TEÓRICA** | `2 FUNDAMENTAÇÃO TEÓRICA` | ✅ Concluído |
+| ├─ 2.1 Área do Negócio | `2.1 Área do Negócio` (dinâmica da inflação, câmbio e demanda) | ✅ Concluído |
+| ├─ 2.2 Mineração de Dados | `2.2 Mineração de Dados` (Box-Jenkins, decomposição Zhang, GA/PSO) | ✅ Concluído |
+| └─ 2.3 Trabalhos Relacionados | `2.3 Trabalhos Relacionados` (trabalhos canônicos e recentes) | ✅ Concluído |
+| **3 MATERIAIS E MÉTODOS** | `3 MATERIAIS E MÉTODOS` | ✅ Concluído |
+| ├─ 3.1 Stakeholders Envolvidos | `3.1 Stakeholders Envolvidos` (Governo, Mercado, Empresas, Academia)| ✅ Concluído |
+| ├─ 3.2 Descrição da Base de Dados | `3.2 Descrição da Base de Dados` (174 meses, SGS/BACEN, 2012-2026) | ✅ Concluído |
+| ├─ 3.3 Análise Descritiva dos Dados | `3.3 Análise Descritiva dos Dados` (Tabela 1, Figuras 1-4, LGPD) | ✅ Concluído |
+| ├─ 3.4 Pré-processamento dos Dados | `3.4 Pré-processamento dos Dados` (Limpeza, Redução, ADF, Tabela 2) | ✅ Concluído |
+| └─ 3.5 Metodologia Experimental | `3.5 Metodologia Experimental` (Walk-forward 80/20, RMSE/MAE/MAPE) | ✅ Concluído |
+| **4 ANÁLISE E DISCUSSÃO DOS RESULTADOS** | `4 ANÁLISE E DISCUSSÃO DOS RESULTADOS` | ✅ Concluído |
+| ├─ 4.1 Resultados | `4.1 Resultados` (Tabela 3 comparativa das 10 configurações) | ✅ Concluído |
+| └─ 4.2 Discussão | `4.2 Discussão` (Superioridade híbrida, repasse e limitações) | ✅ Concluído |
+| **5 CONCLUSÕES E TRABALHOS FUTUROS**| `5 CONCLUSÕES E TRABALHOS FUTUROS` | ✅ Concluído |
+| ├─ 5.1 Conclusões | `5.1 Conclusões` (Resposta à pesquisa e cumprimento dos objetivos)| ✅ Concluído |
+| └─ 5.2 Trabalhos Futuros | `5.2 Trabalhos Futuros` (Previsão multi-step, NLP de Atas COPOM) | ✅ Concluído |
+

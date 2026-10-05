@@ -8,24 +8,25 @@ Este guia orienta o upload dos arquivos da entrega de **Mineração de Dados** c
 
 A pasta `Entrega_Classroom/` contém todos os artefatos organizados e validados:
 
-1. **Código Python (Requisito 3):**
-   - Arquivo: `Entrega_Classroom/1_Codigo_Python/analise_exploratoria_entrega.py`
-   - Opcional: `Entrega_Classroom/1_Codigo_Python/requirements.txt`
-   - *Descrição:* Código reproduzível e comentado que extrai, trata, calcula a tabela de frequência e as estatísticas descritivas do IPCA.
+1. **Artigo Completo Atualizado (PDF & DOCX):**
+   - PDF Oficial: `Entrega_Classroom/3_Artigo_Completo/Artigo_Previsao_Inflacao.pdf`
+   - Word Editável: `Entrega_Classroom/3_Artigo_Completo/Artigo_Previsao_Inflacao.docx`
+   - Markdown Fonte: `Entrega_Classroom/3_Artigo_Completo/Artigo_Previsao_Inflacao.md`
+   - *Descrição:* Artigo completo no padrão POLI/UPE (Capa com logos institucionais, Professor Dr. Alexandre Maciel, 4 integrantes, Introdução contextualizada sem spoiler de resultados, Fundamentação de Negócio para leigos, Matriz Comparativa de Literatura/Diferenciais, Metodologia até Pré-processamento e Referências Bibliográficas).
 
-2. **Seção 3.3 do Artigo (Requisito 3):**
-   - Arquivo Avulso: `Entrega_Classroom/2_Secao_3_3_Artigo/Secao_3_3_Entrega.docx`
-   - Artigo Completo: `Entrega_Classroom/3_Artigo_Completo/Artigo_Previsao_Inflacao.docx`
-   - *Descrição:* Documento formatado contendo a justificativa dos atributos (IPCA e Regime de Inflação), a Tabela 1 de distribuição de frequência, as quatro figuras de alta resolução (histograma, boxplot, dispersão e regimes) e a análise estatística.
+2. **Código Python Reproduzível:**
+   - Script de Extração e Descritiva: `Entrega_Classroom/1_Codigo_Python/analise_exploratoria_entrega.py`
+   - Dependências: `Entrega_Classroom/1_Codigo_Python/requirements.txt`
 
-3. **Gráficos em Alta Resolução (300 DPI) (Requisito 2):**
+3. **Gráficos em Alta Resolução (300 DPI):**
    - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_1_Histograma_IPCA.png`
    - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_2_Boxplot_IPCA.png`
    - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_3_Dispersao_IPCA_Cambio.png`
    - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_4_Distribuicao_Regimes.png`
 
-4. **Tabelas e Base de Dados (Requisito 1):**
+4. **Tabelas e Base de Dados Processada:**
    - `Entrega_Classroom/5_Tabelas_e_Dados/tabela_distribuicao_frequencia.csv`
+   - `Entrega_Classroom/5_Tabelas_e_Dados/estatisticas_descritivas_ipca.csv`
    - `Entrega_Classroom/5_Tabelas_e_Dados/df_macro_agosto2026.csv`
 
 ---
@@ -33,13 +34,13 @@ A pasta `Entrega_Classroom/` contém todos os artefatos organizados e validados:
 ## 🚀 Passo a Passo para Submissão no Google Classroom:
 
 1. Acesse o **Google Classroom** na turma de Mineração de Dados;
-2. Abra a atividade correspondente à entrega;
+2. Abra a atividade da entrega;
 3. No painel lateral direito (**Seus trabalhos** / *Your work*):
-   - Clique em **+ Adicionar ou criar** -> **Arquivo** (ou arraste os arquivos diretamente);
-   - Selecione:
+   - Clique em **+ Adicionar ou criar** -> **Arquivo**;
+   - Anexe:
+     - `Artigo_Previsao_Inflacao.pdf` (ou `.docx`, conforme exigido ou ambos);
      - `analise_exploratoria_entrega.py` (código Python);
-     - `Secao_3_3_Entrega.docx` (ou `Artigo_Previsao_Inflacao.docx`);
-     - (Opcional, mas recomendado) As 4 imagens PNG da pasta `4_Graficos_Alta_Resolucao/`.
+     - Os 4 gráficos PNG e/ou a base CSV se solicitado pelo professor.
 4. Clique no botão **Entregar** (*Turn in*) para concluir a submissão.
 
 ---
