@@ -1,0 +1,72 @@
+% =====================================================================
+% ARQUIVO DE ESTILO: repa.sty (O Modelo Oculto)
+% =====================================================================
+\ProvidesPackage{repa}[2026/05/21 Template Nao Oficial da REPA]
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[brazil]{babel}
+\RequirePackage[margin=2cm, top=2.5cm, bottom=2.5cm, headheight=15pt, footskip=30pt]{geometry} 
+\RequirePackage{setspace}
+\setstretch{1.15} 
+
+% Ativação da fonte Verdana 
+\RequirePackage{fontspec}
+\setmainfont{VERDANA.TTF}[
+    BoldFont = VERDANAB.TTF,
+    ItalicFont = VERDANAI.TTF,
+    BoldItalicFont = VERDANAZ.TTF
+]
+
+\RequirePackage{amsmath, amsfonts, amssymb}
+\RequirePackage{booktabs, tabularx, graphicx}
+\RequirePackage{xcolor, tcolorbox}
+\RequirePackage{ccicons} 
+\RequirePackage{academicons}
+
+% Paleta de cores oficial da REPA
+\definecolor{repablue}{RGB}{0, 32, 96}     
+\definecolor{repabg}{RGB}{222, 234, 246}   
+\definecolor{orcidgreen}{RGB}{166, 206, 57}
+\definecolor{ccgray}{RGB}{160, 160, 160}
+
+\RequirePackage[font=small,labelfont=bf,size=footnotesize]{caption} 
+
+% Configuração dos Títulos das Seções (Azul REPA e Caixa Alta)
+\RequirePackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{11}{13}\bfseries\color{repablue}\MakeUppercase}{\thesection}{1em}{} 
+\titleformat{\subsection}{\normalfont\fontsize{11}{13}\bfseries\color{repablue}}{\thesubsection}{1em}{} 
+\titleformat{\subsubsection}{\normalfont\fontsize{11}{13}\bfseries\color{repablue}}{\thesubsubsection}{1em}{} 
+
+\addto\captionsbrazil{\renewcommand{\refname}{\textcolor{repablue}{REFERÊNCIAS}}}
+
+% =====================================================================
+% CONFIGURAÇÃO DE CABEÇALHOS E RODAPÉS (FANCYHDR)
+% =====================================================================
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} 
+
+\renewcommand{\headrule}{{\color{repablue}\hrule width\headwidth height 1pt}}
+\renewcommand{\footrule}{{\color{repablue}\hrule width\headwidth height 1pt}}
+
+% Páginas Pares (Esquerda / Even)
+\fancyhead[LE]{\small\textcolor{repablue}{Mapeamento do Potencial Fotovoltaico em Pernambuco...}}
+\fancyfoot[LE]{\small\textcolor{repablue}{\thepage}}
+\fancyfoot[RE]{\includegraphics[height=18pt]{logo_cc.png}\hspace{0.0cm}} 
+
+% Páginas Ímpares (Direita / Odd)
+\fancyhead[RO]{\small\textcolor{repablue}{Revista de Engenharia e Pesquisa Aplicada, v. 11, n. 1, 2026.}}
+\fancyfoot[LO]{\small\textcolor{repablue}{\thepage}}
+\fancyfoot[RO]{\small\textcolor{repablue}{DOI: 10.xxxx/s11468-014-9759-3}}
+
+% Estilo da Primeira Página limpa
+\fancypagestyle{primeirapagina}{
+  \fancyhf{} 
+  \renewcommand{\headrule}{} 
+  \renewcommand{\footrule}{} 
+  
+  % Isso ancora a logo exatamente no canto inferior esquerdo da folha!
+  % Para ajustar a altura, mude o valor do \raisebox (ex: 1cm sobe, -1cm desce)
+  \fancyfoot[L]{\raisebox{1cm}{\includegraphics[width=6.5cm]{logo_repa.png}}} 
+}
+\endinput
