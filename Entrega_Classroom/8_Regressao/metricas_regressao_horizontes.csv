@@ -1,0 +1,22 @@
+Horizonte,Modelo,MAE (p.p.),RMSE (p.p.),MSE,MAPE (%),WAPE (%),R²,Hit Ratio (%)
+h=1 (1 mês),Baseline Persistência (y_t),0.3167,0.3932,0.1546,156.98,73.5,0.1699,0.0
+h=1 (1 mês),Baseline Média Histórica,0.3594,0.4468,0.1996,227.26,83.4,-0.072,64.8
+h=1 (1 mês),Regressão Ridge (L2),0.2751,0.3385,0.1146,135.8,63.85,0.3848,61.1
+h=1 (1 mês),Regressão Elastic Net,0.2674,0.3288,0.1081,132.96,62.04,0.4196,66.7
+h=1 (1 mês),Regressão Lasso (L1 - Seleção Esparsa),0.2671,0.3282,0.1077,132.72,61.98,0.4216,66.7
+h=1 (1 mês),Random Forest Regressor (Ensemble),0.2849,0.358,0.1282,159.28,66.12,0.3118,68.5
+h=1 (1 mês),Modelo Híbrido (Lasso + RF Resíduos),0.2974,0.3556,0.1265,153.11,69.02,0.3209,63.0
+h=3 (3 meses),Baseline Persistência (y_t),0.4119,0.5043,0.2543,212.2,102.25,-0.5401,61.5
+h=3 (3 meses),Baseline Média Histórica,0.3504,0.4359,0.19,239.04,86.99,-0.1509,67.3
+h=3 (3 meses),Regressão Ridge (L2),0.2938,0.3815,0.1455,129.72,72.93,0.1186,63.5
+h=3 (3 meses),Regressão Elastic Net,0.2913,0.3681,0.1355,121.82,72.32,0.1791,61.5
+h=3 (3 meses),Regressão Lasso (L1 - Seleção Esparsa),0.2846,0.3598,0.1295,123.52,70.64,0.2159,63.5
+h=3 (3 meses),Random Forest Regressor (Ensemble),0.3304,0.4202,0.1765,224.76,82.01,-0.0693,63.5
+h=3 (3 meses),Modelo Híbrido (Lasso + RF Resíduos),0.2959,0.372,0.1384,140.94,73.45,0.1616,63.5
+h=12 (12 meses),Baseline Persistência (y_t),0.4752,0.6039,0.3647,329.45,137.48,-1.7992,55.8
+h=12 (12 meses),Baseline Média Histórica,0.3454,0.4323,0.1869,261.9,99.93,-0.4345,60.5
+h=12 (12 meses),Regressão Ridge (L2),0.3219,0.4014,0.1611,226.33,93.13,-0.2369,55.8
+h=12 (12 meses),Regressão Elastic Net,0.31,0.3871,0.1498,208.28,89.68,-0.1503,58.1
+h=12 (12 meses),Regressão Lasso (L1 - Seleção Esparsa),0.3054,0.3793,0.1439,197.83,88.36,-0.1044,58.1
+h=12 (12 meses),Random Forest Regressor (Ensemble),0.3808,0.4673,0.2184,297.42,110.15,-0.6761,60.5
+h=12 (12 meses),Modelo Híbrido (Lasso + RF Resíduos),0.349,0.4327,0.1872,255.43,100.96,-0.4371,58.1

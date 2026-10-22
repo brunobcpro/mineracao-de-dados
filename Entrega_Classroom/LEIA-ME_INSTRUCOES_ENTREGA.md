@@ -1,3 +1,53 @@
+# 🎓 Portal Central de Entregas - Mineração de Dados (POLI / UPE)
+**Professor:** Dr. Alexandre Maciel (`alexandre.maciel@upe.br`)
+
+---
+
+## 📌 ATIVIDADE ATUAL: ATIVIDADE 8 – MÉTODOS DE REGRESSÃO SUPERVISIONADA
+> **Acesse o pacote completo e pronto para upload em:** [`Entrega_Classroom/8_Regressao/`](8_Regressao/)  
+> **Guia Passo a Passo Exclusivo:** [`Entrega_Classroom/8_Regressao/LEIA-ME_ENTREGA_REGRESSAO.md`](8_Regressao/LEIA-ME_ENTREGA_REGRESSAO.md)
+
+### Entregáveis da Atividade 8:
+1. **Código Python:**
+   - Script Standalone: `Entrega_Classroom/8_Regressao/regressao_previsao_inflacao.py`
+   - Jupyter Notebook Executado: `Entrega_Classroom/8_Regressao/regressao_previsao_inflacao.ipynb`
+2. **Seções 2.2, 3.5 e 4.1 do Artigo:**
+   - Documento Word Formatado (DOCX): `Entrega_Classroom/8_Regressao/Secoes_2_2_3_5_4_1_Regressao.docx`
+   - Documento Markdown: `Entrega_Classroom/8_Regressao/Secoes_2_2_3_5_4_1_Regressao.md`
+   - Artigo Científico Completo: `Entrega_Classroom/3_Artigo_Completo/Artigo_Previsao_Inflacao.docx` e `Artigo_Previsao_Inflacao.pdf`
+3. **Figuras em Alta Resolução (300 DPI):**
+   - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_14_Comparativo_Regressores_Horizontes.png`
+   - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_15_Serie_Temporal_Real_vs_Predito_Regressao.png`
+   - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_16_Coeficientes_Lasso_Sparsity_Horizontes.png`
+   - `Entrega_Classroom/4_Graficos_Alta_Resolucao/Figura_17_Dispersao_Residuos_Diagnostico.png`
+
+---
+
+## 📌 HISTÓRICO DE ATIVIDADES ANTERIORES:
+
+# 🎓 Portal Central de Entregas - Mineração de Dados (POLI / UPE)
+**Professor:** Dr. Alexandre Maciel ()
+
+---
+
+## 📌 ATIVIDADE ATUAL: ATIVIDADE 8 – MÉTODOS DE REGRESSÃO SUPERVISIONADA
+> **Acesse o pacote completo e pronto para upload em:** [](8_Regressao/)  
+> **Guia Passo a Passo Exclusivo:** [](8_Regressao/LEIA-ME_ENTREGA_REGRESSAO.md)
+
+### Entregáveis da Atividade 8:
+1. **Código Python:**
+   - Script: 
+   - Jupyter Notebook: 
+2. **Seções 2.2, 3.5 e 4.1 do Artigo:**
+   - Word DOCX formatado: 
+   - Markdown: 
+   - Artigo Completo Atualizado:  e 
+3. **Gráficos em Alta Resolução (300 DPI):**
+   - Figuras 14, 15, 16 e 17 em  e 
+
+---
+
+## 📌 HISTÓRICO DE ATIVIDADES ANTERIORES:
 # 🎓 Guia Oficial de Submissão no Google Classroom
 ## Disciplina: Mineração de Dados – POLI / UPE
 ### Atividade 7: Métodos de Classificação Supervisionada

@@ -1,0 +1,4 @@
+Cenário,N_Features,OLS MAE,OLS RMSE,OLS R²,Lasso MAE,Lasso RMSE,Lasso R²
+Cenário 1: Todas as Variáveis (29 vars),29,0.4834,0.6015,-0.9428,0.3807,0.4526,-0.1001
+Cenário 2: Estado da Arte (Filtro Colinearidade - 9 vars),9,0.271,0.3327,0.4056,0.2625,0.3223,0.4423
+Cenário 3: Modelo Otimizador (GA/PSO - 7 vars),7,0.3419,0.4092,0.1009,0.3232,0.3872,0.195
