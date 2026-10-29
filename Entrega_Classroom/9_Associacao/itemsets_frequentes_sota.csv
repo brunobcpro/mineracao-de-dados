@@ -1,0 +1,133 @@
+itemset,tam,suporte
+Desemprego_Baixo,1,0.4827586206896552
+SELIC_Aperto,1,0.4540229885057471
+IPCA_Meta,1,0.4367816091954023
+SELIC_Restritiva,1,0.42528735632183906
+Dolar_Acelerando,1,0.41379310344827586
+IPCA_Alta,1,0.40229885057471265
+Dolar_Alto,1,0.3793103448275862
+Desemprego_Alto,1,0.3563218390804598
+Energia_Demanda_Alta,1,0.3505747126436782
+IGP_M_Alto,1,0.3045977011494253
+Dolar_Baixo,1,0.27586206896551724
+SELIC_Estimulativa,1,0.26436781609195403
+IGP_M_Deflacao,1,0.21839080459770116
+Petroleo_Choque_Oferta,1,0.19540229885057472
+IPCA_Deflacao,1,0.16091954022988506
+Desemprego_Baixo & SELIC_Restritiva,2,0.25287356321839083
+Desemprego_Baixo & SELIC_Aperto,2,0.23563218390804597
+Desemprego_Alto & SELIC_Estimulativa,2,0.23563218390804597
+Desemprego_Baixo & Dolar_Baixo,2,0.22413793103448276
+SELIC_Aperto & SELIC_Restritiva,2,0.22413793103448276
+IPCA_Alta & SELIC_Aperto,2,0.21839080459770116
+Desemprego_Baixo & IPCA_Meta,2,0.21264367816091953
+Dolar_Alto & SELIC_Restritiva,2,0.20689655172413793
+IGP_M_Alto & IPCA_Alta,2,0.20114942528735633
+Desemprego_Baixo & Dolar_Alto,2,0.20114942528735633
+Desemprego_Baixo & IPCA_Alta,2,0.19540229885057472
+Desemprego_Baixo & Dolar_Acelerando,2,0.19540229885057472
+Dolar_Acelerando & SELIC_Aperto,2,0.1896551724137931
+IPCA_Meta & SELIC_Aperto,2,0.1896551724137931
+Dolar_Alto & SELIC_Aperto,2,0.1896551724137931
+Dolar_Acelerando & IPCA_Meta,2,0.1839080459770115
+IPCA_Meta & SELIC_Restritiva,2,0.1839080459770115
+Energia_Demanda_Alta & SELIC_Aperto,2,0.1724137931034483
+Dolar_Acelerando & SELIC_Restritiva,2,0.1724137931034483
+Dolar_Acelerando & Dolar_Alto,2,0.1724137931034483
+Dolar_Alto & IPCA_Alta,2,0.1724137931034483
+Desemprego_Baixo & Energia_Demanda_Alta,2,0.16666666666666666
+IPCA_Alta & SELIC_Restritiva,2,0.16666666666666666
+Desemprego_Alto & IPCA_Meta,2,0.16666666666666666
+Dolar_Acelerando & IPCA_Alta,2,0.16091954022988506
+Energia_Demanda_Alta & SELIC_Restritiva,2,0.15517241379310345
+Dolar_Alto & IPCA_Meta,2,0.15517241379310345
+Energia_Demanda_Alta & IPCA_Meta,2,0.14942528735632185
+Desemprego_Alto & Dolar_Acelerando,2,0.14942528735632185
+Dolar_Acelerando & IGP_M_Alto,2,0.14367816091954022
+Energia_Demanda_Alta & IPCA_Alta,2,0.14367816091954022
+Desemprego_Alto & SELIC_Aperto,2,0.14367816091954022
+Dolar_Alto & Energia_Demanda_Alta,2,0.14367816091954022
+IGP_M_Alto & SELIC_Estimulativa,2,0.13218390804597702
+Desemprego_Baixo & IGP_M_Deflacao,2,0.13218390804597702
+Dolar_Acelerando & Energia_Demanda_Alta,2,0.13218390804597702
+IGP_M_Deflacao & SELIC_Restritiva,2,0.13218390804597702
+Desemprego_Alto & Energia_Demanda_Alta,2,0.13218390804597702
+Dolar_Acelerando & SELIC_Estimulativa,2,0.13218390804597702
+Dolar_Alto & IGP_M_Alto,2,0.13218390804597702
+Dolar_Baixo & SELIC_Aperto,2,0.12643678160919541
+IGP_M_Deflacao & IPCA_Meta,2,0.12643678160919541
+Dolar_Baixo & IPCA_Meta,2,0.1206896551724138
+Desemprego_Alto & IGP_M_Alto,2,0.1206896551724138
+Desemprego_Alto & Dolar_Alto,2,0.1206896551724138
+Dolar_Baixo & IPCA_Alta,2,0.11494252873563218
+IPCA_Alta & SELIC_Estimulativa,2,0.11494252873563218
+IPCA_Meta & SELIC_Estimulativa,2,0.11494252873563218
+Dolar_Alto & SELIC_Estimulativa,2,0.11494252873563218
+Desemprego_Baixo & IGP_M_Alto,2,0.10919540229885058
+IGP_M_Alto & SELIC_Aperto,2,0.10919540229885058
+Petroleo_Choque_Oferta & SELIC_Restritiva,2,0.10919540229885058
+Desemprego_Alto & IPCA_Alta,2,0.10919540229885058
+Dolar_Alto & Petroleo_Choque_Oferta,2,0.10919540229885058
+IGP_M_Alto & IPCA_Meta,2,0.10344827586206896
+Petroleo_Choque_Oferta & SELIC_Aperto,2,0.10344827586206896
+SELIC_Aperto & SELIC_Estimulativa,2,0.10344827586206896
+Dolar_Alto & IGP_M_Deflacao,2,0.10344827586206896
+Energia_Demanda_Alta & IGP_M_Alto,2,0.09770114942528736
+Dolar_Acelerando & IGP_M_Deflacao,2,0.09770114942528736
+Desemprego_Baixo & Petroleo_Choque_Oferta,2,0.09770114942528736
+Energia_Demanda_Alta & SELIC_Estimulativa,2,0.09770114942528736
+Dolar_Acelerando & Dolar_Baixo,2,0.09195402298850575
+Dolar_Baixo & Energia_Demanda_Alta,2,0.09195402298850575
+IPCA_Meta & Petroleo_Choque_Oferta,2,0.09195402298850575
+Dolar_Acelerando & Petroleo_Choque_Oferta,2,0.08620689655172414
+IGP_M_Alto & SELIC_Restritiva,2,0.08620689655172414
+IGP_M_Deflacao & SELIC_Aperto,2,0.08045977011494253
+Desemprego_Alto & IPCA_Deflacao,2,0.08045977011494253
+Desemprego_Baixo & Dolar_Alto & SELIC_Restritiva,3,0.16666666666666666
+Desemprego_Baixo & SELIC_Aperto & SELIC_Restritiva,3,0.14367816091954022
+Desemprego_Baixo & Dolar_Acelerando & SELIC_Aperto,3,0.1206896551724138
+Desemprego_Alto & IGP_M_Alto & SELIC_Estimulativa,3,0.1206896551724138
+Desemprego_Alto & Dolar_Acelerando & SELIC_Estimulativa,3,0.1206896551724138
+Desemprego_Baixo & Dolar_Baixo & IPCA_Alta,3,0.11494252873563218
+Desemprego_Baixo & Dolar_Baixo & SELIC_Aperto,3,0.11494252873563218
+Dolar_Acelerando & SELIC_Aperto & SELIC_Restritiva,3,0.11494252873563218
+IPCA_Alta & SELIC_Aperto & SELIC_Restritiva,3,0.11494252873563218
+Desemprego_Alto & IPCA_Meta & SELIC_Estimulativa,3,0.11494252873563218
+Desemprego_Alto & Dolar_Alto & SELIC_Estimulativa,3,0.11494252873563218
+Desemprego_Baixo & IPCA_Alta & SELIC_Aperto,3,0.10919540229885058
+Desemprego_Baixo & Dolar_Acelerando & SELIC_Restritiva,3,0.10919540229885058
+Dolar_Alto & IPCA_Meta & SELIC_Restritiva,3,0.10919540229885058
+Dolar_Alto & SELIC_Aperto & SELIC_Restritiva,3,0.10919540229885058
+Desemprego_Baixo & IPCA_Meta & SELIC_Aperto,3,0.10344827586206896
+Dolar_Alto & IPCA_Alta & SELIC_Aperto,3,0.10344827586206896
+Desemprego_Baixo & Dolar_Acelerando & IPCA_Meta,3,0.09770114942528736
+Desemprego_Baixo & Dolar_Baixo & IPCA_Meta,3,0.09770114942528736
+Desemprego_Baixo & IGP_M_Deflacao & SELIC_Restritiva,3,0.09770114942528736
+Desemprego_Baixo & IPCA_Meta & SELIC_Restritiva,3,0.09770114942528736
+Desemprego_Alto & SELIC_Aperto & SELIC_Estimulativa,3,0.09770114942528736
+Dolar_Alto & IGP_M_Alto & IPCA_Alta,3,0.09770114942528736
+Dolar_Alto & IGP_M_Deflacao & SELIC_Restritiva,3,0.09770114942528736
+Desemprego_Baixo & Dolar_Alto & IPCA_Meta,3,0.09770114942528736
+Desemprego_Baixo & Dolar_Alto & SELIC_Aperto,3,0.09770114942528736
+Desemprego_Baixo & IPCA_Alta & SELIC_Restritiva,3,0.09195402298850575
+Desemprego_Baixo & Energia_Demanda_Alta & SELIC_Restritiva,3,0.09195402298850575
+Desemprego_Alto & Energia_Demanda_Alta & SELIC_Estimulativa,3,0.09195402298850575
+Desemprego_Alto & IPCA_Alta & SELIC_Estimulativa,3,0.09195402298850575
+Desemprego_Alto & Dolar_Alto & IPCA_Alta,3,0.09195402298850575
+Desemprego_Baixo & Dolar_Acelerando & Dolar_Alto,3,0.09195402298850575
+Dolar_Acelerando & IGP_M_Alto & IPCA_Alta,3,0.08620689655172414
+Desemprego_Baixo & Dolar_Acelerando & Dolar_Baixo,3,0.08620689655172414
+Desemprego_Baixo & Energia_Demanda_Alta & IPCA_Meta,3,0.08620689655172414
+Dolar_Acelerando & IPCA_Alta & SELIC_Aperto,3,0.08620689655172414
+Dolar_Acelerando & Dolar_Alto & SELIC_Aperto,3,0.08620689655172414
+Dolar_Alto & Energia_Demanda_Alta & IPCA_Alta,3,0.08620689655172414
+Dolar_Alto & IPCA_Alta & SELIC_Estimulativa,3,0.08620689655172414
+Dolar_Acelerando & Dolar_Alto & SELIC_Restritiva,3,0.08620689655172414
+Energia_Demanda_Alta & IPCA_Alta & SELIC_Aperto,3,0.08045977011494253
+Energia_Demanda_Alta & IGP_M_Alto & IPCA_Alta,3,0.08045977011494253
+IPCA_Meta & SELIC_Aperto & SELIC_Restritiva,3,0.08045977011494253
+Dolar_Acelerando & IPCA_Meta & SELIC_Restritiva,3,0.08045977011494253
+Dolar_Alto & Energia_Demanda_Alta & SELIC_Aperto,3,0.08045977011494253
+Desemprego_Baixo & Dolar_Acelerando & SELIC_Aperto & SELIC_Restritiva,4,0.09195402298850575
+Desemprego_Baixo & Dolar_Alto & SELIC_Aperto & SELIC_Restritiva,4,0.09195402298850575
+Desemprego_Alto & Dolar_Alto & IPCA_Alta & SELIC_Estimulativa,4,0.08620689655172414
